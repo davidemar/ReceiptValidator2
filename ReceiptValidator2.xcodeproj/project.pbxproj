@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F36C12521F9D64E200F0EC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12511F9D64E200F0EC80 /* AppDelegate.swift */; };
+		F36C12541F9D64E200F0EC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12531F9D64E200F0EC80 /* ViewController.swift */; };
+		F36C12571F9D64E200F0EC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36C12551F9D64E200F0EC80 /* Main.storyboard */; };
+		F36C12591F9D64E200F0EC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36C12581F9D64E200F0EC80 /* Assets.xcassets */; };
+		F36C125C1F9D64E200F0EC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36C125A1F9D64E200F0EC80 /* LaunchScreen.storyboard */; };
+		F36C12671F9D64E200F0EC80 /* ReceiptValidator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12661F9D64E200F0EC80 /* ReceiptValidator2Tests.swift */; };
+		F36C12721F9D64E200F0EC80 /* ReceiptValidator2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12711F9D64E200F0EC80 /* ReceiptValidator2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36C12631F9D64E200F0EC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36C12461F9D64E200F0EC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36C124D1F9D64E200F0EC80;
+			remoteInfo = ReceiptValidator2;
+		};
+		F36C126E1F9D64E200F0EC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36C12461F9D64E200F0EC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36C124D1F9D64E200F0EC80;
+			remoteInfo = ReceiptValidator2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F36C124E1F9D64E200F0EC80 /* ReceiptValidator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptValidator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36C12511F9D64E200F0EC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F36C12531F9D64E200F0EC80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F36C12561F9D64E200F0EC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F36C12581F9D64E200F0EC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F36C125B1F9D64E200F0EC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F36C125D1F9D64E200F0EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36C12621F9D64E200F0EC80 /* ReceiptValidator2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptValidator2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36C12661F9D64E200F0EC80 /* ReceiptValidator2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptValidator2Tests.swift; sourceTree = "<group>"; };
+		F36C12681F9D64E200F0EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36C126D1F9D64E200F0EC80 /* ReceiptValidator2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptValidator2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36C12711F9D64E200F0EC80 /* ReceiptValidator2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptValidator2UITests.swift; sourceTree = "<group>"; };
+		F36C12731F9D64E200F0EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36C124B1F9D64E200F0EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C125F1F9D64E200F0EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C126A1F9D64E200F0EC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F36C12451F9D64E200F0EC80 = {
+			isa = PBXGroup;
+			children = (
+				F36C12501F9D64E200F0EC80 /* ReceiptValidator2 */,
+				F36C12651F9D64E200F0EC80 /* ReceiptValidator2Tests */,
+				F36C12701F9D64E200F0EC80 /* ReceiptValidator2UITests */,
+				F36C124F1F9D64E200F0EC80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F36C124F1F9D64E200F0EC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36C124E1F9D64E200F0EC80 /* ReceiptValidator2.app */,
+				F36C12621F9D64E200F0EC80 /* ReceiptValidator2Tests.xctest */,
+				F36C126D1F9D64E200F0EC80 /* ReceiptValidator2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36C12501F9D64E200F0EC80 /* ReceiptValidator2 */ = {
+			isa = PBXGroup;
+			children = (
+				F36C12511F9D64E200F0EC80 /* AppDelegate.swift */,
+				F36C12531F9D64E200F0EC80 /* ViewController.swift */,
+				F36C12551F9D64E200F0EC80 /* Main.storyboard */,
+				F36C12581F9D64E200F0EC80 /* Assets.xcassets */,
+				F36C125A1F9D64E200F0EC80 /* LaunchScreen.storyboard */,
+				F36C125D1F9D64E200F0EC80 /* Info.plist */,
+			);
+			path = ReceiptValidator2;
+			sourceTree = "<group>";
+		};
+		F36C12651F9D64E200F0EC80 /* ReceiptValidator2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F36C12661F9D64E200F0EC80 /* ReceiptValidator2Tests.swift */,
+				F36C12681F9D64E200F0EC80 /* Info.plist */,
+			);
+			path = ReceiptValidator2Tests;
+			sourceTree = "<group>";
+		};
+		F36C12701F9D64E200F0EC80 /* ReceiptValidator2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F36C12711F9D64E200F0EC80 /* ReceiptValidator2UITests.swift */,
+				F36C12731F9D64E200F0EC80 /* Info.plist */,
+			);
+			path = ReceiptValidator2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36C124D1F9D64E200F0EC80 /* ReceiptValidator2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36C12761F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2" */;
+			buildPhases = (
+				F36C124A1F9D64E200F0EC80 /* Sources */,
+				F36C124B1F9D64E200F0EC80 /* Frameworks */,
+				F36C124C1F9D64E200F0EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceiptValidator2;
+			productName = ReceiptValidator2;
+			productReference = F36C124E1F9D64E200F0EC80 /* ReceiptValidator2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36C12611F9D64E200F0EC80 /* ReceiptValidator2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36C12791F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2Tests" */;
+			buildPhases = (
+				F36C125E1F9D64E200F0EC80 /* Sources */,
+				F36C125F1F9D64E200F0EC80 /* Frameworks */,
+				F36C12601F9D64E200F0EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36C12641F9D64E200F0EC80 /* PBXTargetDependency */,
+			);
+			name = ReceiptValidator2Tests;
+			productName = ReceiptValidator2Tests;
+			productReference = F36C12621F9D64E200F0EC80 /* ReceiptValidator2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F36C126C1F9D64E200F0EC80 /* ReceiptValidator2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36C127C1F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2UITests" */;
+			buildPhases = (
+				F36C12691F9D64E200F0EC80 /* Sources */,
+				F36C126A1F9D64E200F0EC80 /* Frameworks */,
+				F36C126B1F9D64E200F0EC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36C126F1F9D64E200F0EC80 /* PBXTargetDependency */,
+			);
+			name = ReceiptValidator2UITests;
+			productName = ReceiptValidator2UITests;
+			productReference = F36C126D1F9D64E200F0EC80 /* ReceiptValidator2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36C12461F9D64E200F0EC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Piso13;
+				TargetAttributes = {
+					F36C124D1F9D64E200F0EC80 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					F36C12611F9D64E200F0EC80 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F36C124D1F9D64E200F0EC80;
+					};
+					F36C126C1F9D64E200F0EC80 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F36C124D1F9D64E200F0EC80;
+					};
+				};
+			};
+			buildConfigurationList = F36C12491F9D64E200F0EC80 /* Build configuration list for PBXProject "ReceiptValidator2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36C12451F9D64E200F0EC80;
+			productRefGroup = F36C124F1F9D64E200F0EC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36C124D1F9D64E200F0EC80 /* ReceiptValidator2 */,
+				F36C12611F9D64E200F0EC80 /* ReceiptValidator2Tests */,
+				F36C126C1F9D64E200F0EC80 /* ReceiptValidator2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36C124C1F9D64E200F0EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36C125C1F9D64E200F0EC80 /* LaunchScreen.storyboard in Resources */,
+				F36C12591F9D64E200F0EC80 /* Assets.xcassets in Resources */,
+				F36C12571F9D64E200F0EC80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C12601F9D64E200F0EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C126B1F9D64E200F0EC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36C124A1F9D64E200F0EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36C12541F9D64E200F0EC80 /* ViewController.swift in Sources */,
+				F36C12521F9D64E200F0EC80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C125E1F9D64E200F0EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36C12671F9D64E200F0EC80 /* ReceiptValidator2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36C12691F9D64E200F0EC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36C12721F9D64E200F0EC80 /* ReceiptValidator2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36C12641F9D64E200F0EC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36C124D1F9D64E200F0EC80 /* ReceiptValidator2 */;
+			targetProxy = F36C12631F9D64E200F0EC80 /* PBXContainerItemProxy */;
+		};
+		F36C126F1F9D64E200F0EC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36C124D1F9D64E200F0EC80 /* ReceiptValidator2 */;
+			targetProxy = F36C126E1F9D64E200F0EC80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F36C12551F9D64E200F0EC80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36C12561F9D64E200F0EC80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F36C125A1F9D64E200F0EC80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36C125B1F9D64E200F0EC80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F36C12741F9D64E200F0EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F36C12751F9D64E200F0EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F36C12771F9D64E200F0EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36C12781F9D64E200F0EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36C127A1F9D64E200F0EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptValidator2.app/ReceiptValidator2";
+			};
+			name = Debug;
+		};
+		F36C127B1F9D64E200F0EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceiptValidator2.app/ReceiptValidator2";
+			};
+			name = Release;
+		};
+		F36C127D1F9D64E200F0EC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptValidator2;
+			};
+			name = Debug;
+		};
+		F36C127E1F9D64E200F0EC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWZR3WDFA4;
+				INFOPLIST_FILE = ReceiptValidator2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = psio13.ReceiptValidator2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReceiptValidator2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36C12491F9D64E200F0EC80 /* Build configuration list for PBXProject "ReceiptValidator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36C12741F9D64E200F0EC80 /* Debug */,
+				F36C12751F9D64E200F0EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36C12761F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36C12771F9D64E200F0EC80 /* Debug */,
+				F36C12781F9D64E200F0EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36C12791F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36C127A1F9D64E200F0EC80 /* Debug */,
+				F36C127B1F9D64E200F0EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36C127C1F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36C127D1F9D64E200F0EC80 /* Debug */,
+				F36C127E1F9D64E200F0EC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36C12461F9D64E200F0EC80 /* Project object */;
+}
