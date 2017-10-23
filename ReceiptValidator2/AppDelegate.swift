@@ -4,7 +4,7 @@
 //
 //  Created by David Mar on 10/22/17.
 //  Copyright © 2017 Piso13. All rights reserved.
-//
+// pod 'OpenSSL-for-iOS', '1.0.2.d.1'
 
 import UIKit
 

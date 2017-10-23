@@ -7,19 +7,45 @@
 //
 
 import UIKit
+import StoreKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+public class ViewController: UIViewController, SKRequestDelegate {
+    
+    let receiptValidator = ReceiptValidator()
+    let receiptRequest = SKReceiptRefreshRequest()
+    
+    // MARK: View Controller Life Cycle Methods
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        receiptRequest.delegate = self
+        
+        let validationResult = receiptValidator.validateReceipt()
+        
+        switch validationResult {
+        case .success:
+            print(validationResult)
+        // Enable app features
+        case .error(let error):
+            print(error)
+            receiptRequest.start()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    public func requestDidFinish(_ request: SKRequest) {
+        do {
+            try receiptValidator.validateReceipt()
+        } catch {
+            // Log unsuccessful attempt and optionally begin grace period
+            // before disabling app functionality, or simply disable features
+        }
     }
-
-
+    
+    public func request(_ request: SKRequest, didFailWithError error: Error) {
+        // debug error condition
+        print(error.localizedDescription)
+        
+        // Log unsuccessful attempt and optionally begin grace period
+        // before disabling app functionality, or simply disable features
+    }
 }
 
