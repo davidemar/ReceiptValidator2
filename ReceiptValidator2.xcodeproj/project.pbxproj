@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4101E7CCF66774D1C9C1185 /* libPods-ReceiptValidator2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B120F3CCFECC1C9E86EC87F9 /* libPods-ReceiptValidator2.a */; };
 		F30CF0AE1F9D6C7900C0608F /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30CF0AD1F9D6C7900C0608F /* ReceiptValidator.swift */; };
 		F30CF0B01F9D6CA500C0608F /* pkcs7_union_accessors.m in Sources */ = {isa = PBXBuildFile; fileRef = F30CF0AF1F9D6CA500C0608F /* pkcs7_union_accessors.m */; };
 		F36C12521F9D64E200F0EC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12511F9D64E200F0EC80 /* AppDelegate.swift */; };
@@ -17,7 +16,6 @@
 		F36C125C1F9D64E200F0EC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36C125A1F9D64E200F0EC80 /* LaunchScreen.storyboard */; };
 		F36C12671F9D64E200F0EC80 /* ReceiptValidator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12661F9D64E200F0EC80 /* ReceiptValidator2Tests.swift */; };
 		F36C12721F9D64E200F0EC80 /* ReceiptValidator2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C12711F9D64E200F0EC80 /* ReceiptValidator2UITests.swift */; };
-		F36C12801F9D662600F0EC80 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F36C127F1F9D662600F0EC80 /* Podfile */; };
 		F3A0EEE91F9D734E00D035AF /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30CF0AD1F9D6C7900C0608F /* ReceiptValidator.swift */; };
 		F3A0EEEA1F9D734E00D035AF /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30CF0AD1F9D6C7900C0608F /* ReceiptValidator.swift */; };
 		F3A631851F9D8A6F007616DC /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = F3A631841F9D8A6F007616DC /* AppleIncRootCertificate.cer */; };
@@ -42,9 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25F744E226B9B64788C2FC36 /* Pods-ReceiptValidator2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptValidator2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiptValidator2/Pods-ReceiptValidator2.release.xcconfig"; sourceTree = "<group>"; };
-		B120F3CCFECC1C9E86EC87F9 /* libPods-ReceiptValidator2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReceiptValidator2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB79308547D9AD235EC735EF /* Pods-ReceiptValidator2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptValidator2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReceiptValidator2/Pods-ReceiptValidator2.debug.xcconfig"; sourceTree = "<group>"; };
 		F30CF0A41F9D68D300C0608F /* ReceiptValidator2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReceiptValidator2-Bridging-Header.h"; sourceTree = "<group>"; };
 		F30CF0AD1F9D6C7900C0608F /* ReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptValidator.swift; sourceTree = "<group>"; };
 		F30CF0AF1F9D6CA500C0608F /* pkcs7_union_accessors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pkcs7_union_accessors.m; sourceTree = "<group>"; };
@@ -62,7 +57,6 @@
 		F36C126D1F9D64E200F0EC80 /* ReceiptValidator2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceiptValidator2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36C12711F9D64E200F0EC80 /* ReceiptValidator2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptValidator2UITests.swift; sourceTree = "<group>"; };
 		F36C12731F9D64E200F0EC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F36C127F1F9D662600F0EC80 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3A631841F9D8A6F007616DC /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
 		F3A631861F9D8AF6007616DC /* receipt */ = {isa = PBXFileReference; lastKnownFileType = file; path = receipt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4101E7CCF66774D1C9C1185 /* libPods-ReceiptValidator2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,33 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C1DFAE1D5C3279498B9EF52 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB79308547D9AD235EC735EF /* Pods-ReceiptValidator2.debug.xcconfig */,
-				25F744E226B9B64788C2FC36 /* Pods-ReceiptValidator2.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BB4D9A7C2E11729B1C29CF32 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B120F3CCFECC1C9E86EC87F9 /* libPods-ReceiptValidator2.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F36C12451F9D64E200F0EC80 = {
 			isa = PBXGroup;
 			children = (
-				F36C127F1F9D662600F0EC80 /* Podfile */,
 				F36C12501F9D64E200F0EC80 /* ReceiptValidator2 */,
 				F36C12651F9D64E200F0EC80 /* ReceiptValidator2Tests */,
 				F36C12701F9D64E200F0EC80 /* ReceiptValidator2UITests */,
 				F36C124F1F9D64E200F0EC80 /* Products */,
-				4C1DFAE1D5C3279498B9EF52 /* Pods */,
-				BB4D9A7C2E11729B1C29CF32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,12 +150,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F36C12761F9D64E200F0EC80 /* Build configuration list for PBXNativeTarget "ReceiptValidator2" */;
 			buildPhases = (
-				3A99A46C44A698EF38EFEB06 /* [CP] Check Pods Manifest.lock */,
 				F36C124A1F9D64E200F0EC80 /* Sources */,
 				F36C124B1F9D64E200F0EC80 /* Frameworks */,
 				F36C124C1F9D64E200F0EC80 /* Resources */,
-				8383739CE2378B13A3AC19CA /* [CP] Embed Pods Frameworks */,
-				3812EB5105506B0877ADD798 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +253,6 @@
 			files = (
 				F36C125C1F9D64E200F0EC80 /* LaunchScreen.storyboard in Resources */,
 				F36C12591F9D64E200F0EC80 /* Assets.xcassets in Resources */,
-				F36C12801F9D662600F0EC80 /* Podfile in Resources */,
 				F3A631871F9D8AF9007616DC /* receipt in Resources */,
 				F3A631851F9D8A6F007616DC /* AppleIncRootCertificate.cer in Resources */,
 				F36C12571F9D64E200F0EC80 /* Main.storyboard in Resources */,
@@ -305,57 +274,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3812EB5105506B0877ADD798 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReceiptValidator2/Pods-ReceiptValidator2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A99A46C44A698EF38EFEB06 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReceiptValidator2-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8383739CE2378B13A3AC19CA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReceiptValidator2/Pods-ReceiptValidator2-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F36C124A1F9D64E200F0EC80 /* Sources */ = {
@@ -531,7 +449,6 @@
 		};
 		F36C12771F9D64E200F0EC80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB79308547D9AD235EC735EF /* Pods-ReceiptValidator2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -552,7 +469,6 @@
 		};
 		F36C12781F9D64E200F0EC80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25F744E226B9B64788C2FC36 /* Pods-ReceiptValidator2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
