@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReceiptValidator2/ReceiptValidator.swift"
+            timestampString = "530426252.044174"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "validateReceipt()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReceiptValidator2/ReceiptValidator.swift"
+            timestampString = "530426252.044236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "checkSignatureAuthenticity(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReceiptValidator2.ReceiptSignatureValidator.checkSignatureAuthenticity(Swift.UnsafeMutablePointer&lt;__C.pkcs7_st&gt;) throws -&gt; ()"
+                  moduleName = "ReceiptValidator2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidmar/Documents/ReceiptValidator2/ReceiptValidator2/ReceiptValidator.swift"
+                  timestampString = "530425363.685581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ReceiptValidator2.ReceiptSignatureValidator.checkSignatureAuthenticity(Swift.UnsafeMutablePointer&lt;__C.pkcs7_st&gt;) throws -&gt; ()"
+                  moduleName = "ReceiptValidator2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidmar/Documents/ReceiptValidator2/ReceiptValidator2/ReceiptValidator.swift"
+                  timestampString = "530425363.688195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReceiptValidator2/ReceiptValidator.swift"
+            timestampString = "530426252.044281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "verifyAuthenticity(_:PKCS7Container:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
